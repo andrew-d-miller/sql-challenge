@@ -1,0 +1,24 @@
+# Conecptual Schema
+
+Departments
+-
+
+
+Department_Employees
+-
+
+
+Department_Manager
+-
+
+
+Employees
+-
+
+
+Salaries
+-
+
+
+Titles
+-

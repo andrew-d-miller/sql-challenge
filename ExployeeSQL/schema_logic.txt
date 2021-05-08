@@ -1,0 +1,37 @@
+# Logical Schema
+
+Departments
+--
+dept_no INTEGER PK
+dept_name VARCHAR
+
+Department_Employees
+--
+emp_no INTEGER 
+dept_no INTEGER 
+
+Department_Manager
+--
+dept_no INTEGER 
+emp_no INTEGER 
+
+Employees
+--
+emp_no INTEGER PK
+emp_title_id VARCHAR
+birth_date UNIQUE
+first_name VARCHAR
+last_name VARCHAR
+sex VARCHAR
+hire_date DATE
+
+Salaries
+--
+salary INTEGER PK
+emp_no INTEGER 
+
+
+Titles
+--
+title_id INTEGER
+title VARCHAR
