@@ -1,0 +1,34 @@
+Departments
+--
+dept_no INTEGER PK
+dept_name VARCHAR
+
+Department_Employees
+--
+emp_no INTEGER FK >- Employees.emp_no
+dept_no INTEGER FK >- Departments.dept_no
+
+Department_Manager
+--
+dept_no INTEGER FK >- Departments.dept_no
+emp_no INTEGER FK >- Department_Employees.emp_no
+
+Employees
+--
+emp_no INTEGER PK
+emp_title_id VARCHAR
+birth_date UNIQUE
+first_name VARCHAR
+last_name VARCHAR
+sex VARCHAR
+hire_date dateTime default=GETUTCDATE()
+
+Salaries
+--
+emp_no INTEGER FK >- Department_Employees.emp_no
+salary INTEGER PK
+
+Titles
+--
+title_id INTEGER FK >- Employees.emp_title_id
+title VARCHAR
