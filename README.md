@@ -37,3 +37,14 @@ Once you have a complete database, do the following:
 
 
 8. In descending order, list the frequency count of employee last names, i.e., how many employees share each last name.
+
+
+# Bonus (Option)
+
+1. Import the SQL database into Pandas
+2. Create a histogram to visualize the most common salary ranges for employees
+3. Create a bar chart of average salary by title
+
+
+# Epilogue
+* Search your ID number -- 499942

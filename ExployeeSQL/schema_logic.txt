@@ -33,5 +33,5 @@ salary INTEGER
 titles
 --
 emp_no INTEGER  
-title VARCHAR
 title_id VARCHAR
+title VARCHAR
